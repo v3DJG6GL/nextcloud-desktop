@@ -420,22 +420,22 @@
 <context>
     <name>CallNotificationDialog</name>
     <message>
-        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="165"/>
+        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="170"/>
         <source>Talk notification caller avatar</source>
         <translation>Opkalds-avatar til Talk meddelelse</translation>
     </message>
     <message>
-        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="224"/>
+        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="229"/>
         <source>Answer Talk call notification</source>
         <translation>Svar Talk opkaldsnotifikation</translation>
     </message>
     <message>
-        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="231"/>
+        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="236"/>
         <source>Decline</source>
         <translation>Afvis</translation>
     </message>
     <message>
-        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="241"/>
+        <location filename="../src/gui/tray/CallNotificationDialog.qml" line="246"/>
         <source>Decline Talk call notification</source>
         <translation>Afvis Talk opkaldsnotifikation</translation>
     </message>
@@ -624,7 +624,7 @@
 <context>
     <name>EditFileLocallyLoadingDialog</name>
     <message>
-        <location filename="../src/gui/tray/EditFileLocallyLoadingDialog.qml" line="83"/>
+        <location filename="../src/gui/tray/EditFileLocallyLoadingDialog.qml" line="85"/>
         <source>Opening file for local editing</source>
         <translation>Åbner fil for lokal redigering</translation>
     </message>
@@ -650,7 +650,7 @@
 <context>
     <name>EncryptionTokenDiscoveryDialog</name>
     <message>
-        <location filename="../src/gui/tray/EncryptionTokenDiscoveryDialog.qml" line="88"/>
+        <location filename="../src/gui/tray/EncryptionTokenDiscoveryDialog.qml" line="90"/>
         <source>Discovering the certificates stored on your USB token</source>
         <translation>Opdagelse af certifikaterne, der er gemt på dit USB token</translation>
     </message>
@@ -789,47 +789,47 @@
         <translation>Anvend etiketter</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="196"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="201"/>
         <source>Assign labels to the file to manage its sensitivity, retention, and legal hold policies.</source>
         <translation>Tildel etiketter til filen for at styre politikker for følsomhed, opbevaring og juridisk tilbageholdelse.</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="214"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="219"/>
         <source>Sensitivity labels</source>
         <translation>Følsomhedsetiketter</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="241"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="246"/>
         <source>Retention labels</source>
         <translation>Opbevaringsetiketter</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="268"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="273"/>
         <source>Legal hold labels</source>
         <translation>Etiketter for juridisk tilbageholdelse</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="316"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="321"/>
         <source>Reset</source>
         <translation>Nulstil</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="321"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="326"/>
         <source>Apply</source>
         <translation>Anvend</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="224"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="229"/>
         <source>Select sensitivity label</source>
         <translation>Vælg følsomhedsetiket</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="251"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="256"/>
         <source>Select retention label</source>
         <translation>Vælg opbevaringsetiket</translation>
     </message>
     <message>
-        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="277"/>
+        <location filename="../src/gui/GovernanceLabelsDialog.qml" line="282"/>
         <source>Select legal hold label</source>
         <translation>Vælg etiket for juridisk tilbageholdelse</translation>
     </message>
@@ -891,17 +891,17 @@
 <context>
     <name>OCC::AbstractNetworkJob</name>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="335"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="344"/>
         <source>The server took too long to respond. Check your connection and try syncing again. If it still doesn’t work, reach out to your server administrator.</source>
         <translation>Serveren var for længe om at svare. Tjek din forbindelse, og prøv at synkronisere igen. Kontakt din serveradministrator, hvis det stadig ikke virker.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="339"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="350"/>
         <source>An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.</source>
         <translation>Der opstod en uventet fejl. Prøv at synkronisere igen, eller kontakt din serveradministrator, hvis problemet fortsætter.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="619"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="591"/>
         <source>The server enforces strict transport security and does not accept untrusted certificates.</source>
         <translation>Serveren håndhæver streng transportsikkerhed og accepterer ikke utroværdige certifikater.</translation>
     </message>
@@ -914,17 +914,17 @@
         <translation>Offentligt delingslink</translation>
     </message>
     <message>
-        <location filename="../src/libsync/account.cpp" line="1093"/>
+        <location filename="../src/libsync/account.cpp" line="1092"/>
         <source>File %1 is already locked by %2.</source>
         <translation>Fil %1 er allerede låst af %2.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/account.cpp" line="1095"/>
+        <location filename="../src/libsync/account.cpp" line="1094"/>
         <source>Lock operation on %1 failed with error %2</source>
         <translation>Låse handling på %1 fejlede med fejlen %2</translation>
     </message>
     <message>
-        <location filename="../src/libsync/account.cpp" line="1097"/>
+        <location filename="../src/libsync/account.cpp" line="1096"/>
         <source>Unlock operation on %1 failed with error %2</source>
         <translation>Oplåsnings handlingen på %1 fejlede med fejlen %2</translation>
     </message>
@@ -1163,7 +1163,7 @@ Vent på en ny synkronisering, og krypter herefter mappen.</translation>
         <location filename="../src/gui/accountsettings.cpp" line="718"/>
         <location filename="../src/gui/accountsettings.cpp" line="789"/>
         <source>Edit Ignored Files</source>
-        <translation>Redigér ignorerede filer</translation>
+        <translation>Rediger ignorerede filer</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="721"/>
@@ -1181,7 +1181,7 @@ Vent på en ny synkronisering, og krypter herefter mappen.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="797"/>
         <source>Choose what to sync</source>
-        <translation>Vælg hvad der skal synkroniseres</translation>
+        <translation>Vælg, hvad der skal synkroniseres</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="803"/>
@@ -1445,7 +1445,7 @@ Denne handling vil annullere alle i øjeblikket kørende synkroniseringer.</tran
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="811"/>
         <source>Pause sync</source>
-        <translation>Sæt synk. på pause</translation>
+        <translation>Sæt synkronisering på pause</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="944"/>
@@ -4314,7 +4314,7 @@ Du kan ikke straks gå tilbage til en ældre version: Skifter du fra stabil til 
     <message>
         <location filename="../src/gui/legalnotice.ui" line="26"/>
         <source>Legal notice</source>
-        <translation>Juridisk notits</translation>
+        <translation>Juridiske oplysninger</translation>
     </message>
     <message>
         <location filename="../src/gui/legalnotice.ui" line="58"/>
@@ -4704,7 +4704,7 @@ Bemærk at ved brug af enhver form for logning, så vil kommandolinjeflag tilsid
 <context>
     <name>OCC::PollJob</name>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="143"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="142"/>
         <source>Invalid JSON reply from the poll URL</source>
         <translation>Ugyldigt JSON svar fra den forespurgte URL</translation>
     </message>
@@ -5256,60 +5256,60 @@ Bemærk at ved brug af enhver form for logning, så vil kommandolinjeflag tilsid
 <context>
     <name>OCC::PropagateUploadFileCommon</name>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="281"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="280"/>
         <source>File %1 cannot be uploaded because another file with the same name, differing only in case, exists</source>
         <translation>Fil %1 kan ikke sendes fordi en anden fil med samme navn eksisterer kun med forskel i store/små bogstaver.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="336"/>
-        <location filename="../src/libsync/propagateupload.cpp" line="412"/>
-        <location filename="../src/libsync/propagateupload.cpp" line="425"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="335"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="411"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="424"/>
         <source>File %1 has invalid modification time. Do not upload to the server.</source>
         <translation>Filen %1 har et ugyldigt ændringstidspunkt. Overfør den ikke til serveren.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="435"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="434"/>
         <source>Local file changed during syncing. It will be resumed.</source>
         <translation>Lokal fil ændret under sync. Den vil blive genoptaget.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="462"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="461"/>
         <source>Local file changed during sync.</source>
         <translation>Lokal fil ændret under sync.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="472"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="471"/>
         <source>Failed to unlock encrypted folder.</source>
         <translation>Kunne ikke låse krypteret mappe op.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="760"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="759"/>
         <source>Unable to upload an item with invalid characters</source>
         <translation>Et element med ugyldige tegn kan ikke overføres</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="854"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="853"/>
         <source>Error updating metadata: %1</source>
         <translation>Fejl under opdatering af metadata: %1</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="857"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="856"/>
         <source>The file %1 is currently in use</source>
         <translation>Filen %1 er i brug</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="292"/>
-        <location filename="../src/libsync/propagateupload.cpp" line="754"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="291"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="753"/>
         <source>Upload of %1 exceeds the quota for the folder</source>
         <translation>Forsendelse af %1 overskriver mappens kvota</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="246"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="245"/>
         <source>Failed to upload encrypted file.</source>
         <translation>Den krypterede fil kunne ikke overføres.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/propagateupload.cpp" line="409"/>
+        <location filename="../src/libsync/propagateupload.cpp" line="408"/>
         <source>File Removed (start upload) %1</source>
         <translation>Fil fjernet (start forsendelse) %1</translation>
     </message>
@@ -5745,7 +5745,7 @@ Serveren svarede med fejl: %2</translation>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1289"/>
         <source>Copy internal link</source>
-        <translation>Kopier internt link</translation>
+        <translation>Kopiér internt link</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1503"/>
@@ -5888,7 +5888,7 @@ Serveren svarede med fejl: %2</translation>
     <message>
         <location filename="../src/gui/sslerrordialog.ui" line="25"/>
         <source>Trust this certificate anyway</source>
-        <translation>Stol på dette certifikatet alligevel?</translation>
+        <translation>Stol på dette certifikat alligevel</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="79"/>
@@ -6172,13 +6172,13 @@ Serveren svarede med fejl: %2</translation>
         <location filename="../src/gui/systray.cpp" line="579"/>
         <location filename="../src/gui/systray.cpp" line="589"/>
         <source>Pause sync</source>
-        <translation>Pause sync</translation>
+        <translation>Sæt synkronisering på pause</translation>
     </message>
     <message>
         <location filename="../src/gui/systray.cpp" line="580"/>
         <location filename="../src/gui/systray.cpp" line="595"/>
         <source>Resume sync</source>
-        <translation>Genoptag sync</translation>
+        <translation>Genoptag synkronisering</translation>
     </message>
     <message>
         <location filename="../src/gui/systray.cpp" line="581"/>
@@ -7045,137 +7045,137 @@ Serveren svarede med fejl: %2</translation>
         <translation>Fejl ved sletning af filen</translation>
     </message>
     <message>
-        <location filename="../src/libsync/vfs/cfapi/cfapiwrapper.cpp" line="64"/>
+        <location filename="../src/libsync/vfs/cfapi/cfapiwrapper.cpp" line="62"/>
         <source>Paths beginning with &apos;#&apos; character are not supported in VFS mode.</source>
         <translation>Stier, der begynder med tegnet &apos;#&apos;, understøttes ikke i VFS-tilstand.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="503"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="476"/>
         <source>We couldn’t process your request. Please try syncing again later. If this keeps happening, contact your server administrator for help.</source>
         <translation>Vi kunne ikke behandle din anmodning. Prøv at synkronisere igen senere. Kontakt din serveradministrator for at få hjælp, hvis det bliver ved.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="506"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="479"/>
         <source>You need to sign in to continue. If you have trouble with your credentials, please reach out to your server administrator.</source>
         <translation>Du skal logge ind for at fortsætte. Kontakt din serveradministrator, hvis du har problemer med dine loginoplysninger.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="509"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="482"/>
         <source>You don’t have access to this resource. If you think this is a mistake, please contact your server administrator.</source>
         <translation>Du har ikke adgang til denne ressource. Kontakt din serveradministrator, hvis du mener, at det er en fejl.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="512"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="485"/>
         <source>We couldn’t find what you were looking for. It might have been moved or deleted. If you need help, contact your server administrator.</source>
         <translation>Vi kunne ikke finde det, du ledte efter. Det kan være flyttet eller slettet. Kontakt din serveradministrator, hvis du har brug for hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="515"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="488"/>
         <source>It seems you are using a proxy that required authentication. Please check your proxy settings and credentials. If you need help, contact your server administrator.</source>
         <translation>Det ser ud til, at du bruger en proxy, der kræver godkendelse. Tjek dine proxyindstillinger og loginoplysninger. Kontakt din serveradministrator, hvis du har brug for hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="518"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="491"/>
         <source>The request is taking longer than usual. Please try syncing again. If it still doesn’t work, reach out to your server administrator.</source>
         <translation>Anmodningen tager længere tid end normalt. Prøv at synkronisere igen. Kontakt din serveradministrator, hvis det stadig ikke virker.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="521"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="494"/>
         <source>Server files changed while you were working. Please try syncing again. Contact your server administrator if the issue persists.</source>
         <translation>Filer på serveren blev ændret, mens du arbejdede. Prøv at synkronisere igen. Kontakt din serveradministrator, hvis problemet fortsætter.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="524"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="497"/>
         <source>This folder or file isn’t available anymore. If you need assistance, please contact your server administrator.</source>
         <translation>Denne mappe eller fil er ikke længere tilgængelig. Kontakt din serveradministrator, hvis du har brug for hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="527"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="500"/>
         <source>The request could not be completed because some required conditions were not met. Please try syncing again later. If you need assistance, please contact your server administrator.</source>
         <translation>Anmodningen kunne ikke fuldføres, fordi visse betingelser ikke var opfyldt. Prøv at synkronisere igen senere. Kontakt din serveradministrator, hvis du har brug for hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="530"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="503"/>
         <source>The file is too big to upload. You might need to choose a smaller file or contact your server administrator for assistance.</source>
         <translation>Filen er for stor til at blive overført. Du kan vælge en mindre fil eller kontakte din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="533"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="506"/>
         <source>The address used to make the request is too long for the server to handle. Please try shortening the information you’re sending or contact your server administrator for assistance.</source>
         <translation>Adressen i anmodningen er for lang til, at serveren kan håndtere den. Prøv at forkorte oplysningerne, du sender, eller kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="536"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="509"/>
         <source>This file type isn’t supported. Please contact your server administrator for assistance.</source>
         <translation>Denne filtype understøttes ikke. Kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="539"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="512"/>
         <source>The server couldn’t process your request because some information was incorrect or incomplete. Please try syncing again later, or contact your server administrator for assistance.</source>
         <translation>Serveren kunne ikke behandle din anmodning, fordi nogle oplysninger var forkerte eller ufuldstændige. Prøv at synkronisere igen senere, eller kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="542"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="515"/>
         <source>The resource you are trying to access is currently locked and cannot be modified. Please try changing it later, or contact your server administrator for assistance.</source>
         <translation>Den ressource, du forsøger at få adgang til, er låst og kan ikke ændres. Prøv igen senere, eller kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="545"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="518"/>
         <source>This request could not be completed because it is missing some required conditions. Please try again later, or contact your server administrator for help.</source>
         <translation>Anmodningen kunne ikke fuldføres, fordi nogle nødvendige betingelser mangler. Prøv igen senere, eller kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="548"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="521"/>
         <source>You made too many requests. Please wait and try again. If you keep seeing this, your server administrator can help.</source>
         <translation>Du har sendt for mange anmodninger. Vent lidt, og prøv igen. Din serveradministrator kan hjælpe, hvis du bliver ved med at se denne besked.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="551"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="524"/>
         <source>Something went wrong on the server. Please try syncing again later, or contact your server administrator if the issue persists.</source>
         <translation>Noget gik galt på serveren. Prøv at synkronisere igen senere, eller kontakt din serveradministrator, hvis problemet fortsætter.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="554"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="527"/>
         <source>The server does not recognize the request method. Please contact your server administrator for help.</source>
         <translation>Serveren genkender ikke anmodningsmetoden. Kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="557"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="530"/>
         <source>We’re having trouble connecting to the server. Please try again soon. If the issue persists, your server administrator can help you.</source>
         <translation>Vi har problemer med at oprette forbindelse til serveren. Prøv igen om lidt. Din serveradministrator kan hjælpe, hvis problemet fortsætter.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="560"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="533"/>
         <source>The server is busy right now. Please try connecting again in a few minutes or contact your server administrator if it’s urgent.</source>
         <translation>Serveren har travlt lige nu. Prøv at oprette forbindelse igen om et par minutter, eller kontakt din serveradministrator, hvis det haster.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="563"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="536"/>
         <source>It’s taking too long to connect to the server. Please try again later. If you need help, contact your server administrator.</source>
         <translation>Det tager for lang tid at oprette forbindelse til serveren. Prøv igen senere. Kontakt din serveradministrator, hvis du har brug for hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="566"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="539"/>
         <source>The server does not support the version of the connection being used. Contact your server administrator for help.</source>
         <translation>Serveren understøtter ikke den version af forbindelsen, der bruges. Kontakt din serveradministrator for at få hjælp.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="569"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="542"/>
         <source>The server does not have enough space to complete your request. Please check how much quota your user has by contacting your server administrator.</source>
         <translation>Serveren har ikke plads nok til at fuldføre din anmodning. Kontakt din serveradministrator for at høre, hvor stor en kvote din bruger har.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="572"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="545"/>
         <source>Your network needs extra authentication. Please check your connection. Contact your server administrator for help if the issue persists.</source>
         <translation>Dit netværk kræver ekstra godkendelse. Tjek din forbindelse. Kontakt din serveradministrator for at få hjælp, hvis problemet fortsætter.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="575"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="548"/>
         <source>You don’t have permission to access this resource. If you believe this is an error, contact your server administrator to ask for assistance.</source>
         <translation>Du har ikke rettighed til at få adgang til denne ressource. Kontakt din serveradministrator for at få hjælp, hvis du mener, at det er en fejl.</translation>
     </message>
     <message>
-        <location filename="../src/libsync/abstractnetworkjob.cpp" line="578"/>
+        <location filename="../src/libsync/abstractnetworkjob.cpp" line="551"/>
         <source>An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.</source>
         <translation>Der opstod en uventet fejl. Prøv at synkronisere igen, eller kontakt din serveradministrator, hvis problemet fortsætter.</translation>
     </message>
@@ -7219,33 +7219,33 @@ Serveren svarede med fejl: %2</translation>
         <translation>Løs synkroniseringskonflikter</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="48"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="53"/>
         <source>%1 files in conflict</source>
         <comment>indicate the number of conflicts to resolve</comment>
         <translation><numerusform>%1 fil i konflikt</numerusform><numerusform>%1 filer i konflikt</numerusform></translation>
     </message>
     <message>
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="55"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="60"/>
         <source>Choose if you want to keep the local version, server version, or both. If you choose both, the local file will have a number added to its name.</source>
         <translation>Vælg om du vil beholde den lokale version, serverversionen eller begge dele. Hvis du vælger begge, vil den lokale fil have et nummer tilføjet til sit navn.</translation>
     </message>
     <message>
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="71"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="76"/>
         <source>All local versions</source>
         <translation>Alle lokale versioner</translation>
     </message>
     <message>
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="89"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="94"/>
         <source>All server versions</source>
         <translation>Alle serverversioner</translation>
     </message>
     <message>
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="144"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="149"/>
         <source>Resolve conflicts</source>
         <translation>Løs konflikter</translation>
     </message>
     <message>
-        <location filename="../src/gui/ResolveConflictsDialog.qml" line="148"/>
+        <location filename="../src/gui/ResolveConflictsDialog.qml" line="153"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
