@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 name: Linux Appimage Package
 on:
+  push:
+    branches: [test/appimage-openvfs-pin]
   pull_request:
     types: [opened, reopened, synchronize, ready_for_review, labeled, closed]
 
@@ -11,7 +13,7 @@ concurrency:
 
 jobs:
   build:
-    if: "${{ github.event.action != 'closed' && !github.event.pull_request.draft && contains(github.event.pull_request.labels.*.name, 'os: :penguin: Linux') }}"
+    if: "${{ github.event_name == 'push' || github.event.action != 'closed' && !github.event.pull_request.draft && contains(github.event.pull_request.labels.*.name, 'os: :penguin: Linux') }}"
     name: Linux Appimage Package
     runs-on: ubuntu-latest
     container: ghcr.io/nextcloud/continuous-integration-client-appimage-qt6:client-appimage-el9-6.11.2-4
