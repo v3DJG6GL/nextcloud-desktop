@@ -26,7 +26,9 @@
 #include <system_error>
 
 #ifdef Q_OS_WIN
+#include <QDirIterator>
 #include <QProcess>
+#include <QStandardPaths>
 #endif
 
 using namespace Qt::StringLiterals;
@@ -1721,5 +1723,37 @@ bool createDirectorySymlink(const QString &target, const QString &link)
 bool createDirectoryJunction(const QString &target, const QString &link)
 {
     return QProcess::execute(u"cmd"_s, {u"/c"_s, u"mklink"_s, u"/J"_s, QDir::toNativeSeparators(link), QDir::toNativeSeparators(target)}) == 0;
+}
+#endif
+
+#ifdef Q_OS_LINUX
+QString testTrashPath()
+{
+    return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + u"/Trash"_s;
+}
+
+bool createTestTrash()
+{
+    return QDir{}.mkpath(testTrashPath() + u"/files"_s) && QDir{}.mkpath(testTrashPath() + u"/info"_s);
+}
+
+QStringList trashedOriginalPaths()
+{
+    // Each trashed item has an info file that stores its original path
+    auto originalPaths = QStringList{};
+    QDirIterator trashInfos{testTrashPath() + u"/info"_s, {u"*.trashinfo"_s}, QDir::Files};
+    while (trashInfos.hasNext()) {
+        QFile trashInfo{trashInfos.next()};
+        if (!trashInfo.open(QIODevice::ReadOnly)) {
+            continue;
+        }
+        const auto lines = trashInfo.readAll().split('\n');
+        for (const auto &line : lines) {
+            if (line.startsWith("Path=")) {
+                originalPaths.append(QUrl::fromPercentEncoding(line.mid(5)));
+            }
+        }
+    }
+    return originalPaths;
 }
 #endif
