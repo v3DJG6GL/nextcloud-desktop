@@ -332,6 +332,36 @@ private Q_SLOTS:
         QCOMPARE(placeholderAttributes(fakeFolder, u"A/a2"_s)->state, ::OpenVFS::Constants::States::Hydrated);
         QCOMPARE(QFileInfo(fakeFolder.localPath() + u"A/a2"_s).size(), 64);
     }
+
+    void testUnchangedItemsAreNotSyncedAgain()
+    {
+        FakeFolder fakeFolder{FileInfo{}};
+        auto vfs = setupVfs(fakeFolder);
+        prepareHydratedFolder(fakeFolder, *vfs);
+        QVERIFY(fakeFolder.syncOnce());
+
+        ItemCompletedSpy completeSpy(fakeFolder);
+        QVERIFY(fakeFolder.syncOnce());
+
+        for (const auto &arguments : std::as_const(completeSpy)) {
+            const auto item = arguments.first().value<SyncFileItemPtr>();
+            QVERIFY2(item->_instruction == CSYNC_INSTRUCTION_NONE, qPrintable(u"%1 was synced again"_s.arg(item->_file)));
+        }
+    }
+
+    void testPlaceholdersAreInSync()
+    {
+        FakeFolder fakeFolder{FileInfo{}};
+        auto vfs = setupVfs(fakeFolder);
+        prepareHydratedFolder(fakeFolder, *vfs);
+
+        for (const auto &path : {u"A"_s, u"A/a1"_s}) {
+            const auto absolutePath = fakeFolder.localPath() + path;
+            QVERIFY(vfs->isPlaceHolderInSync(absolutePath));
+            const auto item = SyncFileItem::fromSyncJournalFileRecord(dbRecord(fakeFolder, path));
+            QVERIFY(vfs->updatePlaceholderMarkInSync(absolutePath, *item));
+        }
+    }
 };
 
 QTEST_GUILESS_MAIN(TestSyncOpenVfs)
